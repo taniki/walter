@@ -2,7 +2,7 @@
 <% @books.sort_by{ |b| b.author[0].last }.each do |b| %>
 	<li>
 		<span class="book_title"><a href="<%= b.url %>"><%= b.title %></a></span>
-		<span class="author_name"><%= b.author[0].to_html %></span>
+		<span class="author_name"><a href="/"><%= b.author[0].to_html %></a></span>
 	</li>
 <% end %>
 </ul>
