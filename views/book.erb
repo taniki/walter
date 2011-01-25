@@ -1,6 +1,10 @@
 <header>
 	<h3><%= @book.title %></h3>
 	<div class="author_name"><%= @book.author[0].to_html %></div>
+
+	<nav>
+		<a href="/" id="link_home">←</a>
+	</nav>
 </header>
 
 <% @book.quotes.each do |quote| %>

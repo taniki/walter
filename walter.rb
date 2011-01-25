@@ -7,6 +7,8 @@ require 'less'
 
 require 'rdiscount'
 
+set :title, "fragments"
+
 get "/css/benjamin.css" do
   less :benjamin
 end

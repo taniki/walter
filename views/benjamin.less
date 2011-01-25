@@ -5,6 +5,16 @@ header {
 	border-bottom : 1px solid #E6E6E6;
 	font-size : 36px;
 
+	h1 {
+		font-size : 48px;
+		margin-left : 300px;
+	
+		a {
+			color : inherit;
+			text-decoration : none;
+		}
+	}
+
 	h3 {
 		margin-left : 300px;
 		font-weight : bold;
@@ -26,6 +36,18 @@ header {
 	}
 }
 
+nav {
+	font-size : 40px;
+	position : absolute;
+	top : 15px;
+	left : 10px;
+	
+	a {
+		color : #E6E6E6;
+		text-decoration : none;
+	}
+}
+
 #index_by_author {
 	li {
 		font : normal 20px/30px 'Cardo', arial, serif;
@@ -35,7 +57,6 @@ header {
 
 	span {
 		margin-right : 10px;
-		padding : 0 10px;
 	}
 
 	.author_name {
@@ -59,6 +80,7 @@ header {
 	}
 
 	a {
+		padding : 0 10px;
 		font : normal 20px/30px 'Cardo', arial, serif;
 		color : black;
 		text-decoration : none;
@@ -83,6 +105,10 @@ section {
 	}
 }
 
+section:last-of-type {
+	border-bottom : 0px solid #E6E6E6;
+}
+
 blockquote {
 	width : 40em;
 	margin-left : 300px;
@@ -96,5 +122,19 @@ blockquote {
 	
 	p:last-child {
 		margin-bottom : 0em;
+	}
+}
+
+footer {
+	border-top : 1px solid #E6E6E6;
+	padding : 5px 0;
+	margin-bottom : 5px;
+
+	padding-left : 300px;
+	
+	font-size : 10px;
+	
+	a {
+		color : #747474;
 	}
 }

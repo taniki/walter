@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>Les petits papiers</title>
+	<title><%= options.title %></title>
 	
 	<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/css/reset.css" />
@@ -9,6 +9,12 @@
 </head>
 
 <body>
-	<%= yield %>
+
+<%= yield %>
+
+<footer>
+	→ <a href="https://github.com/taniki/walter">walter</a>
+</footer>
+
 </body>
 </html>

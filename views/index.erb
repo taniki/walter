@@ -1,3 +1,7 @@
+<header>
+	<h1><%= options.title %></h1>
+</header>
+
 <ul id="index_by_author">
 <% @books.sort_by{ |b| b.author[0].last }.each do |b| %>
 	<li>
