@@ -1,0 +1,16 @@
+<header>
+	<h3><%= @book.title %></h3>
+	<div class="author_name"><%= @book.author[0].to_html %></div>
+</header>
+
+<% @book.quotes.each do |quote| %>
+<section>
+	<div id="book_info">
+		<% if quote.page != '' %><h4>p. <%= quote.page %></h4><% end %>
+	</div>
+
+	<blockquote>
+	<%= quote.render %>
+	</blockquote>
+</section>
+<% end %>

@@ -1,0 +1,6 @@
+@import url("reset.css");
+
+body { font-family: 'Cardo', arial, serif; }
+
+#index_by_author {  }
+#index_by_author li { font : normal 20px/30px 'Cardo', arial, serif; overflow : hidden; }
