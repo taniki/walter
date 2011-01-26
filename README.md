@@ -7,7 +7,7 @@ It is also like very inspired by [toto](http://cloudhead.io/toto)'s architecture
 
 The name is of course a tribue to Walter Benjamin and his obsession for quotes.
 
-Mini-start in 10 secondes
+Mini-start in 10 seconds
 =========================
 
 	$ sudo gem install walter
