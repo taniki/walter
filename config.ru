@@ -1,3 +1,3 @@
-require 'walter'
+require File.join(File.dirname(__FILE__), 'lib', 'walter')
 
-run Sinatra::Application
+run Walter::App
