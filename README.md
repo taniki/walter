@@ -15,6 +15,7 @@ TODO
 	- installable via rubygems
 		- separate the code and the quotes
 		- separate the views in a different repo
+	- different levels of importance
 
 - #### über-mich
 	- check english typographic rules
