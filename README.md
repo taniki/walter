@@ -13,7 +13,6 @@ TODO
 	- display the year
 	- put a proper permalink system
 	- installable via rubygems
-		- separate the code and the quotes
 		- separate the views in a different repo
 	- different levels of importance
 
