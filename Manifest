@@ -1,0 +1,6 @@
+Manifest
+README.md
+Rakefile
+config.ru
+lib/walter.rb
+walter.gemspec

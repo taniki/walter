@@ -3,7 +3,6 @@ require 'rubygems'
 require 'sinatra'
 require 'erb'
 require 'yaml'
-require 'less'
 
 require 'rdiscount'
 
