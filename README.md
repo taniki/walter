@@ -24,7 +24,7 @@ Features
 	- bibliographical info should be like bibtex specs and formated in yaml
 	- body can be formated with markdown (rdiscount)
 - templating is done with *erb*
-- URL are not in german just for fun
+- URL are not in german just because of guiltiness
 
 TODO
 ====
@@ -38,7 +38,7 @@ TODO
 	- put a proper permalink system
 	- different levels of importance
 
-- #### über-mich
+- #### über-ich
 	- check english typographic rules
 	- make it easy for multilingual stuffs
 	- clean the code
