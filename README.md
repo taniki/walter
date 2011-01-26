@@ -15,7 +15,7 @@ Mini-start in 10 seconds
 	$ cd webquotes
 	$ thin start -R config.ru
 
-(configuring [passenger](http://modrails.com) is 10 more seconds0
+(configuring [passenger](http://modrails.com) is 10 more seconds)
 
 Features
 ========
