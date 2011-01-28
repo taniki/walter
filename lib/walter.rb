@@ -12,10 +12,6 @@ module Walter
   class App < Sinatra::Base
     set :title, "fragments"
 
-    get "/css/benjamin.css" do
-      less :benjamin
-    end
-
     get "/" do
       file_index = Dir.glob('quotes/*.txt')
   
@@ -78,7 +74,11 @@ module Walter
 
         if(meta['title'])
         else
-          self.add_quote meta['page'], body
+          if meta['page'] or meta['chapter']
+            self.add_quote meta['page'], body
+          else
+            self.add_quote meta['page'], part
+          end
         end
       end
     end
@@ -107,7 +107,7 @@ module Walter
     end
   
     def render
-      RDiscount.new(@body).to_html
+      RDiscount.new(@body).to_html if @body
     end
   
     def page

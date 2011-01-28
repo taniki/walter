@@ -26,6 +26,11 @@ Features
 - templating is done with *erb*
 - URL are not in german just because of guiltiness
 
+Some collectors
+===============
+
+- [fragments](http://fragments.cendres.net)
+
 TODO
 ====
 
